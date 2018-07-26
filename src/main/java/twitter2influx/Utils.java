@@ -32,8 +32,6 @@ public class Utils {
             inputStream = new FileInputStream(path);
             properties.load(inputStream);
             inputStream.close();
-        } catch (FileNotFoundException ex) {
-            Logger.log(Utils.class.getName(), ex.getMessage());
         } catch (IOException ex) {
             Logger.log(Utils.class.getName(), ex.getMessage());
         }
