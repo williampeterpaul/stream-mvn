@@ -36,3 +36,8 @@ Finally, to visualise these metrics the developer can install Grafana!
 
 If you have any idea for an improvement or found a bug, do not hesitate to open an issue. 
 And if you have time clone this repo and submit a pull request and help me make this project kickass!
+
+
+## Future Development
+
+The type of data harvested using this project can be used in a number of interesting ways. The project [latent-dirichlet-allocation](https://github.com/williampeterpaul/latent-dirichlet-allocation) was built as an extension to this project to make use of the data through semantic analysis. For more information check the repo!
